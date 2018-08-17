@@ -37,7 +37,7 @@
 #pragma mark - Action
 - (IBAction)commitAction:(id)sender {
     //点击了提交
-    
+    //一般只要这一步就好了
     if([self valOneStep]){
         //数据赋值
         [self.dataModel dataAssInView:self.view];
@@ -45,9 +45,8 @@
         NSLog(@"dataDic--%@",dataDic);
         [ZXToastTool showToast:@"一步验证通过"];
     }
-    
-    //多种形式校验
-    //根据规则校验
+    return;
+    //根据特定情况校验
     if([self valSomeEmpty] &&
        [self valSysRegular] && [self valCusRegular]){
         //数据赋值
