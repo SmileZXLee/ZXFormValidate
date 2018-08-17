@@ -1,5 +1,5 @@
 # ZXFormValidate
-! [图片] (https://raw.githubusercontent.com/SmileZXLee/ZXFormValidate/master/formVal.gif)；
+! [图片] (https://github.com/SmileZXLee/ZXFormValidate/master/formVal.gif)；
 iOS上表单校验的统一化和规范化，一行代码完成表单校验，数据赋值，回显，无需定义UITextfield变量；
 在项目的pch文件中导入ZXFormValidatePrefixHeader.pch即可；
 具体使用例子见FixTfsVC和TableViewTfsVC控制器；
