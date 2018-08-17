@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  ZXFormValidateDemo
+//
+//  Created by 李兆祥 on 2018/8/14.
+//  Copyright © 2018年 李兆祥. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define IS_IPHONE_X (([[UIScreen mainScreen] bounds].size.height - 812)?NO : YES)
+#define REAL_HEIGHT (IS_IPHONE_X ? 10 : 20)
+#define APP_STATUSBAR_HEIGHT (CGRectGetHeight([UIApplication sharedApplication].statusBarFrame))
+#define SYS_STATUSBAR_HEIGHT (IS_IPHONE_X ? 44 : 20)
+#define kNavi_Height (44 + SYS_STATUSBAR_HEIGHT)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height - APP_STATUSBAR_HEIGHT + REAL_HEIGHT)
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+
+#import "UIView+Toast.h"
+#import "ZXFormValidatePrefixHeader.pch"
+#endif /* PrefixHeader_pch */

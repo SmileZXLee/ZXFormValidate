@@ -1,0 +1,886 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74120C822122B91200A0CDA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120C812122B91200A0CDA6 /* AppDelegate.m */; };
+		74120C852122B91200A0CDA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120C842122B91200A0CDA6 /* ViewController.m */; };
+		74120C882122B91200A0CDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74120C862122B91200A0CDA6 /* Main.storyboard */; };
+		74120C8A2122B91200A0CDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74120C892122B91200A0CDA6 /* Assets.xcassets */; };
+		74120C8D2122B91200A0CDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74120C8B2122B91200A0CDA6 /* LaunchScreen.storyboard */; };
+		74120C902122B91300A0CDA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120C8F2122B91300A0CDA6 /* main.m */; };
+		74120C9A2122B91300A0CDA6 /* ZXFormValidateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120C992122B91300A0CDA6 /* ZXFormValidateDemoTests.m */; };
+		74120CA52122B91300A0CDA6 /* ZXFormValidateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CA42122B91300A0CDA6 /* ZXFormValidateDemoUITests.m */; };
+		74120CB52122B9A400A0CDA6 /* FixTfsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CB32122B9A400A0CDA6 /* FixTfsVC.m */; };
+		74120CB62122B9A400A0CDA6 /* FixTfsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74120CB42122B9A400A0CDA6 /* FixTfsVC.xib */; };
+		74120CBA2122C0AE00A0CDA6 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CB82122C0AE00A0CDA6 /* MainVC.m */; };
+		74120CBB2122C0AE00A0CDA6 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74120CB92122C0AE00A0CDA6 /* MainVC.xib */; };
+		74120CBF2122C7CA00A0CDA6 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CBE2122C7CA00A0CDA6 /* UIView+Toast.m */; };
+		74120CE62122C91C00A0CDA6 /* ZXDataAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CC22122C91C00A0CDA6 /* ZXDataAssignment.m */; };
+		74120CE72122C91C00A0CDA6 /* NSArray+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CC62122C91C00A0CDA6 /* NSArray+Validate.m */; };
+		74120CE82122C91C00A0CDA6 /* UIViewController+DataAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CC82122C91C00A0CDA6 /* UIViewController+DataAssignment.m */; };
+		74120CE92122C91C00A0CDA6 /* UIView+GETUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CCA2122C91C00A0CDA6 /* UIView+GETUI.m */; };
+		74120CEA2122C91C00A0CDA6 /* UIView+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CCB2122C91C00A0CDA6 /* UIView+Validate.m */; };
+		74120CEB2122C91C00A0CDA6 /* UIView+DataAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CCF2122C91C00A0CDA6 /* UIView+DataAssignment.m */; };
+		74120CEC2122C91C00A0CDA6 /* NSArray+DataAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CD22122C91C00A0CDA6 /* NSArray+DataAssignment.m */; };
+		74120CED2122C91C00A0CDA6 /* UIViewController+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CD32122C91C00A0CDA6 /* UIViewController+Validate.m */; };
+		74120CEE2122C91C00A0CDA6 /* NSString+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CD42122C91C00A0CDA6 /* NSString+Validate.m */; };
+		74120CF02122C91C00A0CDA6 /* UITextField+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CD82122C91C00A0CDA6 /* UITextField+Validate.m */; };
+		74120CF12122C91C00A0CDA6 /* UIViewController+GETUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CDA2122C91C00A0CDA6 /* UIViewController+GETUI.m */; };
+		74120CF22122C91C00A0CDA6 /* NSObject+DataAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CDB2122C91C00A0CDA6 /* NSObject+DataAssignment.m */; };
+		74120CF32122C91C00A0CDA6 /* NSObject+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CDC2122C91C00A0CDA6 /* NSObject+Validate.m */; };
+		74120CF42122C91C00A0CDA6 /* ZXUIGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CDE2122C91C00A0CDA6 /* ZXUIGet.m */; };
+		74120CF52122C91C00A0CDA6 /* ZXToastTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CE02122C91C00A0CDA6 /* ZXToastTool.m */; };
+		74120CF62122C91C00A0CDA6 /* ZXFormValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CE42122C91C00A0CDA6 /* ZXFormValidate.m */; };
+		74120CF92122CBFC00A0CDA6 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120CF82122CBFC00A0CDA6 /* UIButton+Block.m */; };
+		74120D022122D19400A0CDA6 /* FixTfsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74120D012122D19400A0CDA6 /* FixTfsModel.m */; };
+		746CFBD12124291C0067C632 /* ZXFormValidateConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 746CFBD02124291C0067C632 /* ZXFormValidateConst.m */; };
+		74F9B5DC21254D56007D3BBA /* UITextView+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B5DB21254D56007D3BBA /* UITextView+Validate.m */; };
+		74F9B5E221255984007D3BBA /* TableViewTfsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B5E121255984007D3BBA /* TableViewTfsVC.m */; };
+		74F9B5E621255CA9007D3BBA /* TableViewTfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B5E421255CA9007D3BBA /* TableViewTfCell.m */; };
+		74F9B5E721255CA9007D3BBA /* TableViewTfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F9B5E521255CA9007D3BBA /* TableViewTfCell.xib */; };
+		74F9B5EA21256B2A007D3BBA /* NSDictionary+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B5E921256B2A007D3BBA /* NSDictionary+Validate.m */; };
+		E6BC56D0B9F22656D5931342 /* libPods-ZXFormValidateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E28559CB655704A0FA55A803 /* libPods-ZXFormValidateDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74120C962122B91300A0CDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74120C752122B91200A0CDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74120C7C2122B91200A0CDA6;
+			remoteInfo = ZXFormValidateDemo;
+		};
+		74120CA12122B91300A0CDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74120C752122B91200A0CDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74120C7C2122B91200A0CDA6;
+			remoteInfo = ZXFormValidateDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B629A5AD53FE9CE8E475E14 /* Pods-ZXFormValidateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXFormValidateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXFormValidateDemo/Pods-ZXFormValidateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		244568CF3FAEE368AF796454 /* Pods-ZXFormValidateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXFormValidateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXFormValidateDemo/Pods-ZXFormValidateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		74120C7D2122B91200A0CDA6 /* ZXFormValidateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXFormValidateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74120C802122B91200A0CDA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74120C812122B91200A0CDA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74120C832122B91200A0CDA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74120C842122B91200A0CDA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74120C872122B91200A0CDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74120C892122B91200A0CDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74120C8C2122B91200A0CDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74120C8E2122B91300A0CDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74120C8F2122B91300A0CDA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74120C952122B91300A0CDA6 /* ZXFormValidateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXFormValidateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74120C992122B91300A0CDA6 /* ZXFormValidateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXFormValidateDemoTests.m; sourceTree = "<group>"; };
+		74120C9B2122B91300A0CDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74120CA02122B91300A0CDA6 /* ZXFormValidateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXFormValidateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74120CA42122B91300A0CDA6 /* ZXFormValidateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXFormValidateDemoUITests.m; sourceTree = "<group>"; };
+		74120CA62122B91300A0CDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74120CB22122B9A400A0CDA6 /* FixTfsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixTfsVC.h; sourceTree = "<group>"; };
+		74120CB32122B9A400A0CDA6 /* FixTfsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixTfsVC.m; sourceTree = "<group>"; };
+		74120CB42122B9A400A0CDA6 /* FixTfsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FixTfsVC.xib; sourceTree = "<group>"; };
+		74120CB72122C0AE00A0CDA6 /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		74120CB82122C0AE00A0CDA6 /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		74120CB92122C0AE00A0CDA6 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		74120CBD2122C7CA00A0CDA6 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		74120CBE2122C7CA00A0CDA6 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		74120CC02122C7E300A0CDA6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		74120CC22122C91C00A0CDA6 /* ZXDataAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDataAssignment.m; sourceTree = "<group>"; };
+		74120CC42122C91C00A0CDA6 /* UIViewController+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Validate.h"; sourceTree = "<group>"; };
+		74120CC52122C91C00A0CDA6 /* NSArray+DataAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DataAssignment.h"; sourceTree = "<group>"; };
+		74120CC62122C91C00A0CDA6 /* NSArray+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Validate.m"; sourceTree = "<group>"; };
+		74120CC72122C91C00A0CDA6 /* NSString+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validate.h"; sourceTree = "<group>"; };
+		74120CC82122C91C00A0CDA6 /* UIViewController+DataAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DataAssignment.m"; sourceTree = "<group>"; };
+		74120CCA2122C91C00A0CDA6 /* UIView+GETUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GETUI.m"; sourceTree = "<group>"; };
+		74120CCB2122C91C00A0CDA6 /* UIView+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Validate.m"; sourceTree = "<group>"; };
+		74120CCC2122C91C00A0CDA6 /* NSObject+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Validate.h"; sourceTree = "<group>"; };
+		74120CCD2122C91C00A0CDA6 /* NSObject+DataAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataAssignment.h"; sourceTree = "<group>"; };
+		74120CCE2122C91C00A0CDA6 /* UIViewController+GETUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GETUI.h"; sourceTree = "<group>"; };
+		74120CCF2122C91C00A0CDA6 /* UIView+DataAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DataAssignment.m"; sourceTree = "<group>"; };
+		74120CD02122C91C00A0CDA6 /* UITextField+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Validate.h"; sourceTree = "<group>"; };
+		74120CD12122C91C00A0CDA6 /* NSArray+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Validate.h"; sourceTree = "<group>"; };
+		74120CD22122C91C00A0CDA6 /* NSArray+DataAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DataAssignment.m"; sourceTree = "<group>"; };
+		74120CD32122C91C00A0CDA6 /* UIViewController+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Validate.m"; sourceTree = "<group>"; };
+		74120CD42122C91C00A0CDA6 /* NSString+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validate.m"; sourceTree = "<group>"; };
+		74120CD52122C91C00A0CDA6 /* UIView+GETUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GETUI.h"; sourceTree = "<group>"; };
+		74120CD72122C91C00A0CDA6 /* UIViewController+DataAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DataAssignment.h"; sourceTree = "<group>"; };
+		74120CD82122C91C00A0CDA6 /* UITextField+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Validate.m"; sourceTree = "<group>"; };
+		74120CD92122C91C00A0CDA6 /* UIView+DataAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DataAssignment.h"; sourceTree = "<group>"; };
+		74120CDA2122C91C00A0CDA6 /* UIViewController+GETUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GETUI.m"; sourceTree = "<group>"; };
+		74120CDB2122C91C00A0CDA6 /* NSObject+DataAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataAssignment.m"; sourceTree = "<group>"; };
+		74120CDC2122C91C00A0CDA6 /* NSObject+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Validate.m"; sourceTree = "<group>"; };
+		74120CDD2122C91C00A0CDA6 /* UIView+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Validate.h"; sourceTree = "<group>"; };
+		74120CDE2122C91C00A0CDA6 /* ZXUIGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXUIGet.m; sourceTree = "<group>"; };
+		74120CDF2122C91C00A0CDA6 /* ZXFormValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXFormValidate.h; sourceTree = "<group>"; };
+		74120CE02122C91C00A0CDA6 /* ZXToastTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXToastTool.m; sourceTree = "<group>"; };
+		74120CE12122C91C00A0CDA6 /* ZXDataAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDataAssignment.h; sourceTree = "<group>"; };
+		74120CE22122C91C00A0CDA6 /* ZXFormValidatePrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXFormValidatePrefixHeader.pch; sourceTree = "<group>"; };
+		74120CE32122C91C00A0CDA6 /* ZXUIGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXUIGet.h; sourceTree = "<group>"; };
+		74120CE42122C91C00A0CDA6 /* ZXFormValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXFormValidate.m; sourceTree = "<group>"; };
+		74120CE52122C91C00A0CDA6 /* ZXToastTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXToastTool.h; sourceTree = "<group>"; };
+		74120CF72122CBFC00A0CDA6 /* UIButton+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		74120CF82122CBFC00A0CDA6 /* UIButton+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		74120D002122D19400A0CDA6 /* FixTfsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixTfsModel.h; sourceTree = "<group>"; };
+		74120D012122D19400A0CDA6 /* FixTfsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FixTfsModel.m; sourceTree = "<group>"; };
+		746CFBCF2124291C0067C632 /* ZXFormValidateConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXFormValidateConst.h; sourceTree = "<group>"; };
+		746CFBD02124291C0067C632 /* ZXFormValidateConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXFormValidateConst.m; sourceTree = "<group>"; };
+		74F9B5DA21254D56007D3BBA /* UITextView+Validate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Validate.h"; sourceTree = "<group>"; };
+		74F9B5DB21254D56007D3BBA /* UITextView+Validate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Validate.m"; sourceTree = "<group>"; };
+		74F9B5E021255984007D3BBA /* TableViewTfsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewTfsVC.h; sourceTree = "<group>"; };
+		74F9B5E121255984007D3BBA /* TableViewTfsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTfsVC.m; sourceTree = "<group>"; };
+		74F9B5E321255CA9007D3BBA /* TableViewTfCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewTfCell.h; sourceTree = "<group>"; };
+		74F9B5E421255CA9007D3BBA /* TableViewTfCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTfCell.m; sourceTree = "<group>"; };
+		74F9B5E521255CA9007D3BBA /* TableViewTfCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewTfCell.xib; sourceTree = "<group>"; };
+		74F9B5E821256B2A007D3BBA /* NSDictionary+Validate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Validate.h"; sourceTree = "<group>"; };
+		74F9B5E921256B2A007D3BBA /* NSDictionary+Validate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Validate.m"; sourceTree = "<group>"; };
+		E28559CB655704A0FA55A803 /* libPods-ZXFormValidateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZXFormValidateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74120C7A2122B91200A0CDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BC56D0B9F22656D5931342 /* libPods-ZXFormValidateDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74120C922122B91300A0CDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74120C9D2122B91300A0CDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD77077B1C920BA72CA26DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E28559CB655704A0FA55A803 /* libPods-ZXFormValidateDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5169ADFB04C6A99CA2ABBBEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B629A5AD53FE9CE8E475E14 /* Pods-ZXFormValidateDemo.debug.xcconfig */,
+				244568CF3FAEE368AF796454 /* Pods-ZXFormValidateDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74120C742122B91200A0CDA6 = {
+			isa = PBXGroup;
+			children = (
+				74120C7F2122B91200A0CDA6 /* ZXFormValidateDemo */,
+				74120C982122B91300A0CDA6 /* ZXFormValidateDemoTests */,
+				74120CA32122B91300A0CDA6 /* ZXFormValidateDemoUITests */,
+				74120C7E2122B91200A0CDA6 /* Products */,
+				5169ADFB04C6A99CA2ABBBEA /* Pods */,
+				0CD77077B1C920BA72CA26DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74120C7E2122B91200A0CDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74120C7D2122B91200A0CDA6 /* ZXFormValidateDemo.app */,
+				74120C952122B91300A0CDA6 /* ZXFormValidateDemoTests.xctest */,
+				74120CA02122B91300A0CDA6 /* ZXFormValidateDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74120C7F2122B91200A0CDA6 /* ZXFormValidateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74120CC12122C91C00A0CDA6 /* ZXFormValidate */,
+				74120CBC2122C7CA00A0CDA6 /* Toast */,
+				74F9B5DD2125595C007D3BBA /* TableViewTfs(字典&TF数组校验) */,
+				74120CFD2122D17600A0CDA6 /* FixTfs(XIB固定的TF) */,
+				74120CB72122C0AE00A0CDA6 /* MainVC.h */,
+				74120CB82122C0AE00A0CDA6 /* MainVC.m */,
+				74120CB92122C0AE00A0CDA6 /* MainVC.xib */,
+				74120C802122B91200A0CDA6 /* AppDelegate.h */,
+				74120C812122B91200A0CDA6 /* AppDelegate.m */,
+				74120C832122B91200A0CDA6 /* ViewController.h */,
+				74120C842122B91200A0CDA6 /* ViewController.m */,
+				74120C862122B91200A0CDA6 /* Main.storyboard */,
+				74120C892122B91200A0CDA6 /* Assets.xcassets */,
+				74120C8B2122B91200A0CDA6 /* LaunchScreen.storyboard */,
+				74120C8E2122B91300A0CDA6 /* Info.plist */,
+				74120C8F2122B91300A0CDA6 /* main.m */,
+				74120CC02122C7E300A0CDA6 /* PrefixHeader.pch */,
+			);
+			path = ZXFormValidateDemo;
+			sourceTree = "<group>";
+		};
+		74120C982122B91300A0CDA6 /* ZXFormValidateDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74120C992122B91300A0CDA6 /* ZXFormValidateDemoTests.m */,
+				74120C9B2122B91300A0CDA6 /* Info.plist */,
+			);
+			path = ZXFormValidateDemoTests;
+			sourceTree = "<group>";
+		};
+		74120CA32122B91300A0CDA6 /* ZXFormValidateDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74120CA42122B91300A0CDA6 /* ZXFormValidateDemoUITests.m */,
+				74120CA62122B91300A0CDA6 /* Info.plist */,
+			);
+			path = ZXFormValidateDemoUITests;
+			sourceTree = "<group>";
+		};
+		74120CBC2122C7CA00A0CDA6 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				74120CBD2122C7CA00A0CDA6 /* UIView+Toast.h */,
+				74120CBE2122C7CA00A0CDA6 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		74120CC12122C91C00A0CDA6 /* ZXFormValidate */ = {
+			isa = PBXGroup;
+			children = (
+				74120CC32122C91C00A0CDA6 /* Category */,
+				74120CDF2122C91C00A0CDA6 /* ZXFormValidate.h */,
+				74120CE42122C91C00A0CDA6 /* ZXFormValidate.m */,
+				74120CE32122C91C00A0CDA6 /* ZXUIGet.h */,
+				74120CDE2122C91C00A0CDA6 /* ZXUIGet.m */,
+				74120CE12122C91C00A0CDA6 /* ZXDataAssignment.h */,
+				74120CC22122C91C00A0CDA6 /* ZXDataAssignment.m */,
+				74120CE52122C91C00A0CDA6 /* ZXToastTool.h */,
+				74120CE02122C91C00A0CDA6 /* ZXToastTool.m */,
+				746CFBCF2124291C0067C632 /* ZXFormValidateConst.h */,
+				746CFBD02124291C0067C632 /* ZXFormValidateConst.m */,
+				74120CE22122C91C00A0CDA6 /* ZXFormValidatePrefixHeader.pch */,
+			);
+			path = ZXFormValidate;
+			sourceTree = "<group>";
+		};
+		74120CC32122C91C00A0CDA6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				74120CD02122C91C00A0CDA6 /* UITextField+Validate.h */,
+				74120CD82122C91C00A0CDA6 /* UITextField+Validate.m */,
+				74F9B5DA21254D56007D3BBA /* UITextView+Validate.h */,
+				74F9B5DB21254D56007D3BBA /* UITextView+Validate.m */,
+				74120CDD2122C91C00A0CDA6 /* UIView+Validate.h */,
+				74120CCB2122C91C00A0CDA6 /* UIView+Validate.m */,
+				74120CD12122C91C00A0CDA6 /* NSArray+Validate.h */,
+				74120CC62122C91C00A0CDA6 /* NSArray+Validate.m */,
+				74120CC72122C91C00A0CDA6 /* NSString+Validate.h */,
+				74120CD42122C91C00A0CDA6 /* NSString+Validate.m */,
+				74120CC42122C91C00A0CDA6 /* UIViewController+Validate.h */,
+				74120CD32122C91C00A0CDA6 /* UIViewController+Validate.m */,
+				74120CCC2122C91C00A0CDA6 /* NSObject+Validate.h */,
+				74120CDC2122C91C00A0CDA6 /* NSObject+Validate.m */,
+				74F9B5E821256B2A007D3BBA /* NSDictionary+Validate.h */,
+				74F9B5E921256B2A007D3BBA /* NSDictionary+Validate.m */,
+				74120CD52122C91C00A0CDA6 /* UIView+GETUI.h */,
+				74120CCA2122C91C00A0CDA6 /* UIView+GETUI.m */,
+				74120CCE2122C91C00A0CDA6 /* UIViewController+GETUI.h */,
+				74120CDA2122C91C00A0CDA6 /* UIViewController+GETUI.m */,
+				74120CCD2122C91C00A0CDA6 /* NSObject+DataAssignment.h */,
+				74120CDB2122C91C00A0CDA6 /* NSObject+DataAssignment.m */,
+				74120CC52122C91C00A0CDA6 /* NSArray+DataAssignment.h */,
+				74120CD22122C91C00A0CDA6 /* NSArray+DataAssignment.m */,
+				74120CD92122C91C00A0CDA6 /* UIView+DataAssignment.h */,
+				74120CCF2122C91C00A0CDA6 /* UIView+DataAssignment.m */,
+				74120CD72122C91C00A0CDA6 /* UIViewController+DataAssignment.h */,
+				74120CC82122C91C00A0CDA6 /* UIViewController+DataAssignment.m */,
+				74120CF72122CBFC00A0CDA6 /* UIButton+Block.h */,
+				74120CF82122CBFC00A0CDA6 /* UIButton+Block.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		74120CFD2122D17600A0CDA6 /* FixTfs(XIB固定的TF) */ = {
+			isa = PBXGroup;
+			children = (
+				74120CFE2122D17600A0CDA6 /* Model */,
+				74120CFF2122D17600A0CDA6 /* View */,
+				74120CB22122B9A400A0CDA6 /* FixTfsVC.h */,
+				74120CB32122B9A400A0CDA6 /* FixTfsVC.m */,
+				74120CB42122B9A400A0CDA6 /* FixTfsVC.xib */,
+			);
+			path = "FixTfs(XIB固定的TF)";
+			sourceTree = "<group>";
+		};
+		74120CFE2122D17600A0CDA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74120D002122D19400A0CDA6 /* FixTfsModel.h */,
+				74120D012122D19400A0CDA6 /* FixTfsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74120CFF2122D17600A0CDA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74F9B5DD2125595C007D3BBA /* TableViewTfs(字典&TF数组校验) */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B5DE2125595C007D3BBA /* Model */,
+				74F9B5DF2125595C007D3BBA /* View */,
+				74F9B5E021255984007D3BBA /* TableViewTfsVC.h */,
+				74F9B5E121255984007D3BBA /* TableViewTfsVC.m */,
+			);
+			path = "TableViewTfs(字典&TF数组校验)";
+			sourceTree = "<group>";
+		};
+		74F9B5DE2125595C007D3BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74F9B5DF2125595C007D3BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74F9B5E321255CA9007D3BBA /* TableViewTfCell.h */,
+				74F9B5E421255CA9007D3BBA /* TableViewTfCell.m */,
+				74F9B5E521255CA9007D3BBA /* TableViewTfCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74120C7C2122B91200A0CDA6 /* ZXFormValidateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74120CA92122B91300A0CDA6 /* Build configuration list for PBXNativeTarget "ZXFormValidateDemo" */;
+			buildPhases = (
+				E5D31A9ED9F31267B0BBB343 /* [CP] Check Pods Manifest.lock */,
+				74120C792122B91200A0CDA6 /* Sources */,
+				74120C7A2122B91200A0CDA6 /* Frameworks */,
+				74120C7B2122B91200A0CDA6 /* Resources */,
+				F8E65EDAE9D34F2DF234CE21 /* [CP] Embed Pods Frameworks */,
+				0703D1B19381B73196DF621F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXFormValidateDemo;
+			productName = ZXFormValidateDemo;
+			productReference = 74120C7D2122B91200A0CDA6 /* ZXFormValidateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74120C942122B91300A0CDA6 /* ZXFormValidateDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74120CAC2122B91300A0CDA6 /* Build configuration list for PBXNativeTarget "ZXFormValidateDemoTests" */;
+			buildPhases = (
+				74120C912122B91300A0CDA6 /* Sources */,
+				74120C922122B91300A0CDA6 /* Frameworks */,
+				74120C932122B91300A0CDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74120C972122B91300A0CDA6 /* PBXTargetDependency */,
+			);
+			name = ZXFormValidateDemoTests;
+			productName = ZXFormValidateDemoTests;
+			productReference = 74120C952122B91300A0CDA6 /* ZXFormValidateDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74120C9F2122B91300A0CDA6 /* ZXFormValidateDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74120CAF2122B91300A0CDA6 /* Build configuration list for PBXNativeTarget "ZXFormValidateDemoUITests" */;
+			buildPhases = (
+				74120C9C2122B91300A0CDA6 /* Sources */,
+				74120C9D2122B91300A0CDA6 /* Frameworks */,
+				74120C9E2122B91300A0CDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74120CA22122B91300A0CDA6 /* PBXTargetDependency */,
+			);
+			name = ZXFormValidateDemoUITests;
+			productName = ZXFormValidateDemoUITests;
+			productReference = 74120CA02122B91300A0CDA6 /* ZXFormValidateDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74120C752122B91200A0CDA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "李兆祥";
+				TargetAttributes = {
+					74120C7C2122B91200A0CDA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					74120C942122B91300A0CDA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74120C7C2122B91200A0CDA6;
+					};
+					74120C9F2122B91300A0CDA6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74120C7C2122B91200A0CDA6;
+					};
+				};
+			};
+			buildConfigurationList = 74120C782122B91200A0CDA6 /* Build configuration list for PBXProject "ZXFormValidateDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74120C742122B91200A0CDA6;
+			productRefGroup = 74120C7E2122B91200A0CDA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74120C7C2122B91200A0CDA6 /* ZXFormValidateDemo */,
+				74120C942122B91300A0CDA6 /* ZXFormValidateDemoTests */,
+				74120C9F2122B91300A0CDA6 /* ZXFormValidateDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74120C7B2122B91200A0CDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74120CBB2122C0AE00A0CDA6 /* MainVC.xib in Resources */,
+				74F9B5E721255CA9007D3BBA /* TableViewTfCell.xib in Resources */,
+				74120C8D2122B91200A0CDA6 /* LaunchScreen.storyboard in Resources */,
+				74120C8A2122B91200A0CDA6 /* Assets.xcassets in Resources */,
+				74120CB62122B9A400A0CDA6 /* FixTfsVC.xib in Resources */,
+				74120C882122B91200A0CDA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74120C932122B91300A0CDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74120C9E2122B91300A0CDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0703D1B19381B73196DF621F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZXFormValidateDemo/Pods-ZXFormValidateDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXFormValidateDemo/Pods-ZXFormValidateDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D31A9ED9F31267B0BBB343 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXFormValidateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E65EDAE9D34F2DF234CE21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXFormValidateDemo/Pods-ZXFormValidateDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74120C792122B91200A0CDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74120CED2122C91C00A0CDA6 /* UIViewController+Validate.m in Sources */,
+				74120CF22122C91C00A0CDA6 /* NSObject+DataAssignment.m in Sources */,
+				74120CBF2122C7CA00A0CDA6 /* UIView+Toast.m in Sources */,
+				74120CF92122CBFC00A0CDA6 /* UIButton+Block.m in Sources */,
+				74120CF02122C91C00A0CDA6 /* UITextField+Validate.m in Sources */,
+				74120CEB2122C91C00A0CDA6 /* UIView+DataAssignment.m in Sources */,
+				74120C852122B91200A0CDA6 /* ViewController.m in Sources */,
+				74F9B5E221255984007D3BBA /* TableViewTfsVC.m in Sources */,
+				74120CF52122C91C00A0CDA6 /* ZXToastTool.m in Sources */,
+				74F9B5DC21254D56007D3BBA /* UITextView+Validate.m in Sources */,
+				74120CE72122C91C00A0CDA6 /* NSArray+Validate.m in Sources */,
+				74120CE92122C91C00A0CDA6 /* UIView+GETUI.m in Sources */,
+				74120CF42122C91C00A0CDA6 /* ZXUIGet.m in Sources */,
+				74F9B5EA21256B2A007D3BBA /* NSDictionary+Validate.m in Sources */,
+				74120CEE2122C91C00A0CDA6 /* NSString+Validate.m in Sources */,
+				74120CF12122C91C00A0CDA6 /* UIViewController+GETUI.m in Sources */,
+				74120D022122D19400A0CDA6 /* FixTfsModel.m in Sources */,
+				74120CEC2122C91C00A0CDA6 /* NSArray+DataAssignment.m in Sources */,
+				74120C902122B91300A0CDA6 /* main.m in Sources */,
+				74120CB52122B9A400A0CDA6 /* FixTfsVC.m in Sources */,
+				74120CF62122C91C00A0CDA6 /* ZXFormValidate.m in Sources */,
+				746CFBD12124291C0067C632 /* ZXFormValidateConst.m in Sources */,
+				74120CBA2122C0AE00A0CDA6 /* MainVC.m in Sources */,
+				74120C822122B91200A0CDA6 /* AppDelegate.m in Sources */,
+				74F9B5E621255CA9007D3BBA /* TableViewTfCell.m in Sources */,
+				74120CEA2122C91C00A0CDA6 /* UIView+Validate.m in Sources */,
+				74120CE62122C91C00A0CDA6 /* ZXDataAssignment.m in Sources */,
+				74120CE82122C91C00A0CDA6 /* UIViewController+DataAssignment.m in Sources */,
+				74120CF32122C91C00A0CDA6 /* NSObject+Validate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74120C912122B91300A0CDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74120C9A2122B91300A0CDA6 /* ZXFormValidateDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74120C9C2122B91300A0CDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74120CA52122B91300A0CDA6 /* ZXFormValidateDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74120C972122B91300A0CDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74120C7C2122B91200A0CDA6 /* ZXFormValidateDemo */;
+			targetProxy = 74120C962122B91300A0CDA6 /* PBXContainerItemProxy */;
+		};
+		74120CA22122B91300A0CDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74120C7C2122B91200A0CDA6 /* ZXFormValidateDemo */;
+			targetProxy = 74120CA12122B91300A0CDA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74120C862122B91200A0CDA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74120C872122B91200A0CDA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74120C8B2122B91200A0CDA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74120C8C2122B91200A0CDA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74120CA72122B91300A0CDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74120CA82122B91300A0CDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74120CAA2122B91300A0CDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B629A5AD53FE9CE8E475E14 /* Pods-ZXFormValidateDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y2YPWFYNQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZXFormValidateDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ZXFormValidateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxlee.cn.ZXFormValidateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74120CAB2122B91300A0CDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244568CF3FAEE368AF796454 /* Pods-ZXFormValidateDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y2YPWFYNQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZXFormValidateDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ZXFormValidateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxlee.cn.ZXFormValidateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74120CAD2122B91300A0CDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y2YPWFYNQ;
+				INFOPLIST_FILE = ZXFormValidateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxlee.cn.ZXFormValidateDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXFormValidateDemo.app/ZXFormValidateDemo";
+			};
+			name = Debug;
+		};
+		74120CAE2122B91300A0CDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y2YPWFYNQ;
+				INFOPLIST_FILE = ZXFormValidateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxlee.cn.ZXFormValidateDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXFormValidateDemo.app/ZXFormValidateDemo";
+			};
+			name = Release;
+		};
+		74120CB02122B91300A0CDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y2YPWFYNQ;
+				INFOPLIST_FILE = ZXFormValidateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxlee.cn.ZXFormValidateDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXFormValidateDemo;
+			};
+			name = Debug;
+		};
+		74120CB12122B91300A0CDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y2YPWFYNQ;
+				INFOPLIST_FILE = ZXFormValidateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zxlee.cn.ZXFormValidateDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXFormValidateDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74120C782122B91200A0CDA6 /* Build configuration list for PBXProject "ZXFormValidateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74120CA72122B91300A0CDA6 /* Debug */,
+				74120CA82122B91300A0CDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74120CA92122B91300A0CDA6 /* Build configuration list for PBXNativeTarget "ZXFormValidateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74120CAA2122B91300A0CDA6 /* Debug */,
+				74120CAB2122B91300A0CDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74120CAC2122B91300A0CDA6 /* Build configuration list for PBXNativeTarget "ZXFormValidateDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74120CAD2122B91300A0CDA6 /* Debug */,
+				74120CAE2122B91300A0CDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74120CAF2122B91300A0CDA6 /* Build configuration list for PBXNativeTarget "ZXFormValidateDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74120CB02122B91300A0CDA6 /* Debug */,
+				74120CB12122B91300A0CDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74120C752122B91200A0CDA6 /* Project object */;
+}

@@ -1,0 +1,42 @@
+//
+//  ZXFormValidatePrefixHeader.pch
+//  ZXFormValidate
+//
+//  Created by 李兆祥 on 2018/8/9.
+//  Copyright © 2018年 李兆祥. All rights reserved.
+//
+
+#ifndef ZXFormValidatePrefixHeader_pch
+#define ZXFormValidatePrefixHeader_pch
+
+#ifdef __OBJC__
+#import "ZXFormValidateConst.h"
+
+#import <objc/runtime.h>
+#import "ZXFormValidateConst.h"
+
+#import "ZXFormValidate.h"
+#import "ZXUIGet.h"
+#import "ZXDataAssignment.h"
+#import "ZXToastTool.h"
+
+#import "UITextField+Validate.h"
+#import "UITextView+Validate.h"
+#import "UIView+Validate.h"
+#import "NSArray+Validate.h"
+#import "UIViewController+Validate.h"
+#import "NSString+Validate.h"
+#import "NSObject+Validate.h"
+#import "NSDictionary+Validate.h"
+
+#import "UIView+GETUI.h"
+#import "UIViewController+GETUI.h"
+
+#import "NSObject+DataAssignment.h"
+#import "NSArray+DataAssignment.h"
+#import "UIView+DataAssignment.h"
+#import "UIViewController+DataAssignment.h"
+
+#import "UIButton+Block.h"
+#endif
+#endif /* ZXFormValidatePrefixHeader_pch */
