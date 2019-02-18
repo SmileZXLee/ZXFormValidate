@@ -1,7 +1,7 @@
 # ZXFormValidate
 ## ZXFormValidate用于快捷地进行表单校验，数据填充以及数据回显。
 当您的表单来源于Xib时，您无需拖线定义任何一个UITextField
-### 数据填充
+### 数据校验
 ***
 * 校验当前控制器的全部UITextField是否为空，若有为空项，返回NO：
 ```
@@ -61,6 +61,7 @@ BOOL result = [self.dataModel isAll];
 ```
 [self.dataModel dataAssInView:self.view];
 ```
+***
 ### 数据填充，数据回显（将Model模型的值赋值给当前控制器的全部UITextField，注意：model模型中的属性名顺序必须和控制器中UITextField顺序一致，赋值为1-1对应）
 ```
 [self.view dataAssWithModel:self.dataModel];
