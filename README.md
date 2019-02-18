@@ -4,71 +4,71 @@
 ### 数据校验
 ***
 * 校验当前控制器的全部UITextField是否为空，若有为空项，返回NO：
-```
+```objective-c
 BOOL result = [self valTfsEmpty];
 ```
  * 校验当前控制器的全部TF是否为空且自动根据TF占位符进行正则校验，若有为空项，返回NO：
-```
+```objective-c
 BOOL result = [self valTfs];
 ```
 * 根据占位符名字获取UITextField：
-```
+```objective-c
 BOOL result = [self getTfWithPlaceHolder:@"请输入曾用名(选填)"];
 ```
 * 校验当前控制器的UITextField是否为空，并排除一些UITextField不校验，若有为空项，返回NO：
-```
+```objective-c
 NSArray *escapeTfs = @[[self getTfWithPlaceHolder:@"请输入曾用名(选填)"]];
 BOOL result = [self valTfsEmptyEscapeTfs:[escapeTfs mutableCopy]];
 ```
 * 获取当前控制器所有UITextField对象：
-```
+```objective-c
 NSMutableArray *allTfsArr = [self getTfs];
 ```
 * 校验指定的UITextField，若有为空项，返回NO：
-```
+```objective-c
 //tfsArr中存放着需要校验的UITextField
 BOOL result = [tfsArr valTfsEmpty];
 ```
 * 使用ZXFormValidate定义好的正则校验规则校验UITextField，若校验不通过，返回NO：
-```
+```objective-c
 UITextField *phoneTf = [self getTfWithPlaceHolder:@"请输入负责人电话"];
 [phoneTf valRule:ValidateRulePhoneNumber];
 ```
 * 使用自定义校验规则校验TFUITextField，若校验不通过，返回NO：
-```
+```objective-c
 UITextField *nameTf = [self getTfWithPlaceHolder:@"请输入姓名"];
 BOOL val = nameTf.text.length >= 2 && nameTf.text.length <= 4;
 BOOL result = [nameTf valBool:val alertStr:@"姓名长度2-4之间"];
 ```
 * 校验字符串是否为空，若为空，返回NO：
-```
+```objective-c
 BOOL result = [str valEmptyAlertStr:@"字符串为空"];
 ```
 * 校验对象是否为空，若为空，返回NO：
-```
+```objective-c
 BOOL result = [self.dataModel valEmptyAlertStr:@"dataModel为空"];
 ```
 * 校验对象每个属性是否都已赋值，若有属性没有赋值，返回NO：
-```
+```objective-c
 BOOL result = [self.dataModel isAll];
 ```
 * 其他
-```
+```objective-c
 若TF高度为0或为隐藏状态 则ZXFormValidate不会去校验
 ```
 ***
 ### 数据赋值（将当前控制器的全部UITextField赋值给Model模型，注意：model模型中的属性名顺序必须和控制器中UITextField顺序一致，赋值为1-1对应）
-```
+```objective-c
 [self.dataModel dataAssInView:self.view];
 ```
 ***
 ### 数据填充，数据回显（将Model模型的值赋值给当前控制器的全部UITextField，注意：model模型中的属性名顺序必须和控制器中UITextField顺序一致，赋值为1-1对应）
-```
+```objective-c
 [self.view dataAssWithModel:self.dataModel];
 ```
 *** 
 当您的表单来自于UITableView时
-```
+```objective-c
 #import "TableViewTfsVC.h"
 #import "TableViewTfCell.h"
 #import "FixTfsModel.h"
