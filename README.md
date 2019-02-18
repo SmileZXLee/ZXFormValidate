@@ -1,6 +1,5 @@
 # ZXFormValidate
 ## ZXFormValidate用于快捷地进行表单校验，数据填充以及数据回显。
-***
 当您的表单来源于Xib时，您无需拖线定义任何一个UITextField
 ### 数据填充
 ***
@@ -66,7 +65,8 @@ BOOL result = [self.dataModel isAll];
 ```
 [self.view dataAssWithModel:self.dataModel];
 ```
-*** 当您的表单来自于UITableView时
+*** 
+当您的表单来自于UITableView时
 ```
 #import "TableViewTfsVC.h"
 #import "TableViewTfCell.h"
